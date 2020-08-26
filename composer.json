@@ -1,0 +1,28 @@
+{
+    "name": "test/gittest",
+    "description": "This is just a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dayo Oladapo",
+            "email": "dayoesq@live.com"
+        }
+    ],
+    "require": {
+        "ext-pdo": "*",
+        "ext-apache": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Test\\":"src/Test" 
+        },
+        "classmap": []
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:dayoesq/test.git"
+        }
+    ]
+}
