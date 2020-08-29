@@ -1,5 +1,5 @@
 {
-    "name": "test/gittest",
+    "name": "ecommerceapp/ecommerce",
     "description": "This is just a test",
     "license": "MIT",
     "authors": [
@@ -9,15 +9,12 @@
         }
     ],
     "require": {
-        "ext-pdo": "*",
-        "ext-apache": "*",
-        "ext-json": "*",
-        "ecommerceapi/ecommerce": "dev-master"
+        "ecommerceapi/ecommerce": "@dev"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:dayoesq/test.git"
+            "url": "https://github.com/dayoesq/e-commerce-api"
         }
     ]
 }
