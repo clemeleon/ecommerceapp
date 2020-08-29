@@ -9,15 +9,12 @@
         }
     ],
     "require": {
-        "ext-pdo": "*",
-        "ext-apache": "*",
-        "ext-json": "*",
-        "ecommerceapi/ecommerce": "dev-master"
+        "ecommerceapi/ecommerce": "master"
     },
     "repositories": [
         {
             "type": "vcs",
-            "url": "git@github.com:dayoesq/test.git"
+            "url": "https://github.com/dayoesq/ecommerceapi.git"
         }
     ]
 }
